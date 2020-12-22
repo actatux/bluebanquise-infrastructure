@@ -6,7 +6,7 @@ Summary: PowerMan - centralized power control for clusters
 License: GPL
 Group: Applications/System
 Url: http://github.com/chaos/powerman
-Source0: %{name}-%{version}.tar.gz
+Source0: https://github.com/chaos/%{name}/releases/download/%{version}/%{name}-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 #BuildRequires: tcp_wrappers-devel
